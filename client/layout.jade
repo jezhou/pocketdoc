@@ -1,0 +1,19 @@
+template(name="layout")
+
+  .container
+  
+    h1.center PocketDoc
+  
+    +yield
+    
+    .col-sm-offset-3.col-sm-6
+      button(class="btn btn-default btn-block") View statistics
+  
+template(name="home")
+  
+  .row
+    .col-sm-6.col-xs-12.center
+      +environment
+          
+    .col-sm-6.col-xs-12.center
+      +individual
