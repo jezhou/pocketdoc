@@ -1,3 +1,24 @@
 .center {
   text-align: center;
 }
+
+body {
+	background-color: #FDF6E3;
+}
+
+.btn {
+	text-align: center;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  background: #7cc2ae;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
