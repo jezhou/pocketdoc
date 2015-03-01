@@ -1,6 +1,34 @@
 template(name="environment")
   h3.center Environment Survey
+  
+  +autoForm(collection="EnvironmentStats" id="EnvironmentStats" type="insert")
+    fieldset
+      +afQuickField(name='gender')
+      +afQuickField(name='crowding' type='range' min=0 max=100)  
+      +afQuickField(name='landType' type='range' min=0 max=100)
+      +afQuickField(name='plumbing' type='range' min=0 max=100)
+      +afQuickField(name='mosquitos' type='range' min=0 max=100)
+      +afQuickField(name='temperature' type='range' min=0 max=100)
+      +afQuickField(name='bodyOfWater' type='range' min=0 max=100)
+      +afQuickField(name='precipitation' type='range' min=0 max=100)
+    button(type="submit" class="btn btn-primary btn-block") submit
     
 
 template(name="individual")
   h3.center Personal Survey
+  
+  +autoForm(collection="IndividualStats" id="IndividualStats" type="insert")
+    fieldset
+      +afQuickField(name='cough' type='range' min=0 max=3)
+      +afQuickField(name='breathing' type='range' min=0 max=100)  
+      +afQuickField(name='fatigue' type='range' min=0 max=100)
+      +afQuickField(name='vomit' type='range' min=0 max=100)
+      +afQuickField(name='chills' type='range' min=0 max=100)
+      +afQuickField(name='bodyType' type='range' min=0 max=100)
+      +afQuickField(name='hair' type='range' min=0 max=100)
+      +afQuickField(name='breastFeed' type='range' min=0 max=100)
+      +afQuickField(name='stomachPains' type='range' min=0 max=100)
+      +afQuickField(name='stoolDensity' type='range' min=0 max=100)
+      +afQuickField(name='stoolBlood')
+    button(type="submit" class="btn btn-primary btn-block") submit
+    

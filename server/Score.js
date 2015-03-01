@@ -31,7 +31,7 @@ cursor.forEach(function(ESObject) {
 });
 
 // Individual Statistics
-cursor = IndivdualStats.find();
+cursor = IndividualStats.find();
 
 totalInvStats = {
   cough: 0,
