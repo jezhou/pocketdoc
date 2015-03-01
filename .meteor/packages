@@ -11,3 +11,4 @@ twbs:bootstrap
 iron:router
 mquandalle:jade
 aldeed:autoform
+aldeed:collection2
